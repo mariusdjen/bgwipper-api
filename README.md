@@ -23,7 +23,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants sur v
 
 1. Clonez le dépôt GitHub :
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
+   git clone https://github.com/mariusdjen/bgwipper-api.git
    cd votre-projet
 
 2. Créer et activer un environnement virtuel
