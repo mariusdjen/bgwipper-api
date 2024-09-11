@@ -44,7 +44,8 @@ Installez toutes les dépendances nécessaires en utilisant le fichier requireme
 
 4. Lancer l'API Flask
  - python app.py
- L'API sera disponible à l'adresse http://127.0.0.1:XXXX
+
+ - L'API sera disponible à l'adresse http://127.0.0.1:XXXX
 
 ## Contribution : 
 Les contributions sont les bienvenues. Si vous souhaitez contribuer, veuillez forker ce projet et soumettre une Pull Request.
