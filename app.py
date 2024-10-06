@@ -87,9 +87,12 @@ def download_file(filename):
         return send_file(path)  # Send the file to the client
     else:
         return jsonify({'error': 'Fichier non trouvé'}), 404  
-    
+
+@app.route('/endpoint_de_test')
+def test_endpoint():
+    return "Test réussi !" 
 if __name__ == '__main__':
     # Start the Flask application
-    app.run(debug=False)  # Deploy with debug=False in production
+    app.run(debug=True)  # Deploy with debug=False in production
 
 
